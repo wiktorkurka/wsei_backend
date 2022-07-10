@@ -1,0 +1,8 @@
+curl -X GET     http://localhost:8080/api/v1/users
+curl -X GET     http://localhost:8080/api/v1/users?page-number=1
+curl -X GET     http://localhost:8080/api/v1/users?page-number=1&page-size=20
+curl -X GET     http://localhost:8080/api/v1/users/251
+curl -X POST    http://localhost:8080/api/v1/users     -H 'Content-Type: application/json' -d '{"username":"wiktor.kurka","email":"wiktor.kurka@email.com","firstName":"Wiktor","lastName":"Kurka","password":"password"}'
+curl -X PUT     http://localhost:8080/api/v1/users/251 -H 'Content-Type: application/json' -d '{"username":"wiktor_kurka","email":"wiktor.kurka@email.com","firstName":"Wiktor","lastName":"Kurka","password":"password"}'
+curl -X PUT     http://localhost:8080/api/v1/users/251 -H 'Content-Type: application/json' -d '{"password":"password","newPassword":"pa$$word"}'
+curl -X DELETE  http://localhost:8080/api/v1/users/251

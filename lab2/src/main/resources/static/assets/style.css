@@ -1,0 +1,10 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: min-content;
+}
+
+.row {
+    display: flex;
+    width: fit-content;
+}
