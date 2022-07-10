@@ -1,0 +1,3 @@
+[submodule "wsei_backend"]
+	path = wsei_backend
+	url = https://github.com/wiktorkurka/wsei_backend
