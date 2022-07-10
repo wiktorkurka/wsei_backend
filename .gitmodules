@@ -1,3 +1,4 @@
 [submodule "backend_project"]
 	path = backend_project
 	url = https://github.com/wiktorkurka/backend_project
+	branch = master
